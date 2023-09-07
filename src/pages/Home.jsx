@@ -3,11 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <main className='min-[500px]:mt-52'>
-
       <article className="flex flex-col min-[500px]:flex-row ">
-
-
-            {/* Imagen encima de Perfil */}
         <section className="md:flex">
          <div className="border-withe border-4 rounded-xl bg-[url(/src/assets/BackgroundHome001.png)] md:w-2/2 bg-cover bg-center relative hover:scale-95 transition-all ">
             <img
@@ -16,7 +12,6 @@ const Home = () => {
               className="hover:scale-115 transition-all w-full"/>
           </div>
         </section>
-
         <section className=" text-white p-4">
           <h1 className="text-3xl font-bold">
             Lukas Moyano is a{" "}
@@ -27,9 +22,7 @@ const Home = () => {
             He crafts responsive websites where technologies meet creativity
           </h2>
         </section>
-
       </article>
-
     </main>
   );
 };
