@@ -16,7 +16,7 @@ const Home = () => {
           <h1 className="text-3xl font-bold">
             Lukas Moyano is a{" "}
             <span className="text-purple-500">Visual Artist</span> and{" "}
-            <span className="text-purple-500">Full Stack Web developer</span>
+            <span className="text-purple-500">Full Stack Web Developer</span>
           </h1>
           <h2>
             He crafts responsive websites where technologies meet creativity
