@@ -5,9 +5,9 @@ const Home = () => {
     <main className='min-[500px]:mt-52'>
       <article className="flex flex-col min-[500px]:flex-row ">
         <section className="md:flex">
-         <div className="border-withe border-4 rounded-xl bg-[url(/src/assets/BackgroundHome001.png)] md:w-2/2 bg-cover bg-center relative hover:scale-95 transition-all ">
+         <div className="border-withe border-4 rounded-xl bg-[url(/BackgroundHome001.png)] md:w-2/2 bg-cover bg-center relative hover:scale-95 transition-all ">
             <img
-              src="/src/assets/IMG_0440_01.png"
+              src="../IMG_0440_01.png"
               alt="Image"
               className="hover:scale-115 transition-all w-full"/>
           </div>
