@@ -9,7 +9,7 @@ function Header() {
   };
 
   return (
-    <header className="relative bg-transparent p-4">
+    <header className=" relative bg-transparent p-4">
 <div className="fixed top-0 right-0 z-50 w-full flex justify-between items-center">
 <Link
           to="/"
@@ -17,7 +17,7 @@ function Header() {
         >
           Lukas Moyano
         </Link>
-        <div className="min-[500px]:hidden">
+        <div className="p-3 min-[500px]:hidden">
           <button
             onClick={toggleMenu}
             className="text-white text-xl"
