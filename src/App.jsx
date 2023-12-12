@@ -3,8 +3,9 @@ import Home from "./pages/Home";
 import Works from "./pages/Works";
 import ContactMe from "./pages/ContactMe";
 import Header from "./components/Header";
-import AbouteMe from "./pages/AbouteMe";
 import Footer from "./components/Footer";
+import MyServices from "./pages/MyServices";
+import AboutMe from "./pages/AboutMe";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Header />
       <Home />
       <Works />
-      <AbouteMe />
+      <AboutMe />
+      <MyServices />
       <ContactMe />
       <Footer />
     </div>
@@ -21,3 +23,8 @@ function App() {
 
 
 export default App;
+
+
+
+
+

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -28,36 +28,7 @@ function Header() {
               # Home
             </Link>
           </li>
-          <li>
-            <Link to="/works" onClick={() => setMenuOpen(false)} className="text-white hover:text-gray-300">
-              # Works
-            </Link>
-          </li>
-          <li>
-            <Link to="/aboutme" onClick={() => setMenuOpen(false)} className="text-white hover:text-gray-300">
-              # Something About Me
-            </Link>
-          </li>
-          <li>
-            <Link to="/contactme" onClick={() => setMenuOpen(false)} className="text-white hover:text-gray-300">
-              Contacto
-            </Link>
-          </li>
-          <li>
-            <Link to="/works" onClick={() => setMenuOpen(false)} className="text-white hover:text-gray-300">
-              # Works
-            </Link>
-          </li>
-          <li>
-            <Link to="/works" onClick={() => setMenuOpen(false)} className="text-white hover:text-gray-300">
-              # Works
-            </Link>
-          </li>
-          <li>
-            <Link to="/works" onClick={() => setMenuOpen(false)} className="text-white hover:text-gray-300">
-              # Works
-            </Link>
-          </li>
+          {/* Resto de las secciones */}
         </ul>
       </nav>
     </header>
